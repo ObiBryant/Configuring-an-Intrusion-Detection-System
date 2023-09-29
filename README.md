@@ -18,43 +18,43 @@ In this lab, I will use an IDS sensor to monitor packets on a LAN router's inter
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Logging into Sguil: <br/>
+1. Logging into Sguil: <br/>
 
 https://github.com/ObiBryant/Configuring-an-Intrusion-Detection-System/assets/143296412/b3e7a994-6935-4ca5-9c01-3dd30c571537
 
 <br />
 <br />
-Pinging SIEM1 from Kali Machine:  <br/>
+2. Pinging SIEM1 from Kali Machine:  <br/>
 
 https://github.com/ObiBryant/Configuring-an-Intrusion-Detection-System/assets/143296412/e2e92207-94d1-4cdd-9374-76cf20b58d0f
 
 <br />
 <br />
-Analyzing an alert and finding the SID: <br/>
+3. Analyzing an alert and finding the SID: <br/>
 
 https://github.com/ObiBryant/Configuring-an-Intrusion-Detection-System/assets/143296412/347ef8a7-e9c9-4ffd-a198-757b2cee0cfe
 
 <br />
 <br />
-Recording the SID:  <br/>
+4. Recording the SID:  <br/>
 
 https://github.com/ObiBryant/Configuring-an-Intrusion-Detection-System/assets/143296412/ef35235b-940a-4618-8fca-5c084ba1aa2c
 
 <br />
 <br />
-Disabling rule that identifies ping alerts based on specified SID:  <br/>
+5. Disabling rule that identifies ping alerts based on specified SID:  <br/>
 
 https://github.com/ObiBryant/Configuring-an-Intrusion-Detection-System/assets/143296412/d0d72245-8005-4efd-bda5-30dd335a6a61
 
 <br />
 <br />
-Updating rule change in IDS:  <br/>
+6. Updating rule change in IDS:  <br/>
 
 https://github.com/ObiBryant/Configuring-an-Intrusion-Detection-System/assets/143296412/d5f15031-335d-4516-9e8b-131ed446bcef
 
 <br />
 <br />
-Testing updated IDS rule:  <br/>
+7. Testing updated IDS rule:  <br/>
 
 https://github.com/ObiBryant/Configuring-an-Intrusion-Detection-System/assets/143296412/0e770890-9bed-4f6a-9c2b-731263244fb1
 
@@ -66,7 +66,7 @@ https://github.com/ObiBryant/Configuring-an-Intrusion-Detection-System/assets/14
 
 <br />
 <br />
-Sending an attack to SIEM1:  <br/>
+8. Sending an attack to SIEM1:  <br/>
 
 https://github.com/ObiBryant/Configuring-an-Intrusion-Detection-System/assets/143296412/e492544e-6b09-40d4-9264-19b123131344
 
@@ -78,7 +78,7 @@ https://github.com/ObiBryant/Configuring-an-Intrusion-Detection-System/assets/14
 
 <br />
 <br />
-Sending DDoS attack to MS1 server, observing how it affects performance, and viewing alerts in SIEM1:  <br/>
+9. Sending DDoS attack to MS1 server, observing how it affects performance, and viewing alerts in SIEM1:  <br/>
 
 https://github.com/ObiBryant/Configuring-an-Intrusion-Detection-System/assets/143296412/0941005f-5c04-494b-9ddc-93321617f9eb
 
